@@ -1,0 +1,11 @@
+citHeader("To cite osfrext in publications use:")
+
+citEntry(
+  entry    = 'Unpublished',
+  title    = "osfrext: An Extension to osfr",
+  author   = person("Dylan Russell"),
+  year     = 2020,
+  note     = 'R package version 0.0.0.9000',
+  url      = 'https://github.com/doctortickle/osfrext',
+  textVersion = "Russell, Dylan (2020). osfrext: An Extension to osfr. https://github.com/doctortickle/osfrext"
+)

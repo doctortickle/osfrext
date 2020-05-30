@@ -1,3 +1,5 @@
 ^osfrext\.Rproj$
 ^\.Rproj\.user$
 ^\.Renviron
+^LICENSE\.md$
+^\.travis\.yml$
