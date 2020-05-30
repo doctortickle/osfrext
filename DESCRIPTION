@@ -1,5 +1,5 @@
 Package: osfrext
-Title: osfr Package Extension
+Title: osfr Extension
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Dylan",
@@ -14,4 +14,10 @@ LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
 Imports: 
-    osfr
+    osfr,
+    fs
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
