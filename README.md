@@ -9,12 +9,6 @@ The package `osfrext` acts an extension to the **ropensci** [`osfr`](https://doc
 
 ## Installation
 
-# You can install the released version of osfrext from [CRAN](https://CRAN.R-project.org) with:
-# 
-# ``` r
-# install.packages("osfrext")
-# ```
-
 You can install the latest version of `osfrext` from GitHub with:
 
 ```r
