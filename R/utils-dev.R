@@ -12,7 +12,7 @@
 #' @noRd
 NULL
 
-osfext_dev_on <- function() {
+osfrext_dev_on <- function() {
   renviron <- normalizePath(".Renviron")
   stopifnot(file.exists(renviron))
   stopifnot(readRenviron(renviron))
@@ -21,7 +21,7 @@ osfext_dev_on <- function() {
   osfr::osf_auth()
 }
 
-osfext_dev_off <- function() {
+osfrext_dev_off <- function() {
   renviron <- normalizePath("~/.Renviron")
   stopifnot(file.exists(renviron))
   stopifnot(readRenviron(renviron))
